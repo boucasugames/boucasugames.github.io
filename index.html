@@ -1,12 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
-    <title>BouCasuGames</title>
-  </head>
-  <body>
-    <main>
-        <h1>Welcome to BouCasuGames</h1>  
-    </main>
-  </body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="BouCasu Games - Play Pizza Delivery Game, Line String Puzzle, and Count Masters Crowd Runners 3D.">
+    <title>BouCasu Games</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Lobster&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header id="header">
+        <nav>
+            <div class="logo">BouCasu <span>Games</span></div>
+            <ul class="nav-links">
+                <li><a href="#games">Our Games</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="hamburger" onclick="toggleMenu()">☰</button>
+        </nav>
+    </header>
+
+    <!-- Hero Section with Parallax and Particle Animation -->
+    <section class="hero">
+    <div id="particles-js"></div>
+    <div class="hero-text">
+        <h1>Welcome to BouCasu Games</h1>
+        <p>Explore thrilling mobile games like never before</p>
+        <a href="#games" class="btn btn-primary">Check Our Games</a>
+    </div>
+</section>
+
+
+    <!-- Games Section with Animation -->
+    <section id="games" class="games">
+        <h2>Our Latest Games</h2>
+        <div class="game-carousel">
+            <div class="game-slide reveal">
+                <img src="https://play-lh.googleusercontent.com/GzHYGJL9si_7xaAtrF_AIcL96kwU8sE-IdWDkER63RCzRy_V4pYkKjotBdS8jYw2wrY=w416-h235-rw" alt="Pizza Delivery Game: Scooter">
+                <div class="game-info">
+                    <h3>Pizza Delivery Game: Scooter</h3>
+                    <p>Deliver pizzas on your scooter while navigating through traffic and obstacles!</p>
+					<br>
+                    <a href="https://play.google.com/store/apps/details?id=com.pizza.deliveryboy.bikegames.pizzaboygames.pizzadelivery" target=”_blank” class="btn btn-download">Download Now</a>
+                </div>
+            </div>
+            <div class="game-slide reveal">
+                <img src="https://play-lh.googleusercontent.com/MpY7u-ji6U7Kxr5j-_6IGTDvLalh9Tc8kw-UY2GcoxGF2WizIsx5Y5uCi_yqOKp6eacc=w416-h235-rw" alt="Line String Puzzle: Color Art">
+                <div class="game-info">
+                    <h3>Line String Puzzle: Color Art</h3>
+                    <p>Connect colorful strings and solve intricate puzzles!</p>
+					<br>
+                    <a href="https://play.google.com/store/apps/details?id=com.BouCasuGames.StringKnotsLinePuzzle" target=”_blank” class="btn btn-download">Download Now</a>
+                </div>
+            </div>
+            <div class="game-slide reveal">
+                <img src="https://play-lh.googleusercontent.com/yPVlo8e2BkgBItbpKCmcKTmGVc2RHwrp4jJI-02xGfpbB8cm3z3yFebRyfvybqx4Ug=w416-h235-rw" alt="Count Masters Crowd Runners 3D">
+                <div class="game-info">
+                    <h3>Count Masters Crowd Runners 3D</h3>
+                    <p>Lead your crowd through obstacles and dominate the arena!</p>
+					<br>
+                    <a href="https://play.google.com/store/apps/details?id=com.BouCasualGames.CountSuperHeroRunMaster" target=”_blank” class="btn btn-download">Download Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about reveal">
+        <h2>About BouCasu Games</h2>
+        <p>At BouCasu Games, we are passionate about creating exciting, immersive, and fun mobile gaming experiences. Our innovative approach to game design ensures that every game we create offers something fresh and unique. Whether it's delivering pizzas, solving colorful puzzles, or leading crowds through epic battles, we aim to make every game an adventure.</p>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials reveal">
+        <h2>What Our Players Say</h2>
+        <div class="testimonials-wrapper">
+            <div class="testimonial">
+                <p>"Pizza Delivery Game is so fun! It really makes you feel like you're in a race to deliver pizzas on time. Amazing!"</p>
+                <h4>- Emily P.</h4>
+            </div>
+            <div class="testimonial">
+                <p>"Line String Puzzle is one of the most relaxing and challenging puzzle games out there. I can spend hours solving these beautiful puzzles!"</p>
+                <h4>- Mark D.</h4>
+            </div>
+            <div class="testimonial">
+                <p>"Count Masters is so addicting! Leading my crowd through obstacles and watching it grow is incredibly satisfying."</p>
+                <h4>- Sarah T.</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact reveal">
+        <h2>Contact BouCasu Games</h2>
+        <form action="#" method="post">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="socials">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+        </div>
+        <p>&copy; 2024 BouCasu Games. All rights reserved.</p>
+    </footer>
+
+    <script src="particles.js"></script>
+    <script src="script.js"></script>
+</body>
 </html>
