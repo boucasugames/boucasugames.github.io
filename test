@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartNote AI - Voice to Notes | Politique de Confidentialité</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 30px;
+            background-color: white;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+            border-radius: 12px;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 15px;
+            margin-bottom: 25px;
+            font-size: 2em;
+        }
+        
+        h2 {
+            color: #34495e;
+            margin-top: 35px;
+            margin-bottom: 15px;
+            font-size: 1.5em;
+            border-left: 5px solid #3498db;
+            padding-left: 15px;
+        }
+        
+        h3 {
+            color: #2c3e50;
+            margin-top: 25px;
+            margin-bottom: 10px;
+            font-size: 1.2em;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        
+        ul {
+            margin-bottom: 15px;
+            padding-left: 25px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        .last-updated {
+            background-color: #ecf0f1;
+            padding: 15px;
+            border-radius: 6px;
+            margin-bottom: 30px;
+            font-style: italic;
+            color: #7f8c8d;
+        }
+        
+        .contact-info {
+            background-color: #e8f4f8;
+            padding: 25px;
+            border-radius: 8px;
+            margin-top: 40px;
+            border-left: 5px solid #3498db;
+        }
+        
+        .highlight {
+            background-color: #fff3cd;
+            padding: 15px;
+            border-radius: 6px;
+            border-left: 5px solid #ffc107;
+            margin: 20px 0;
+        }
+        
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                margin: 10px;
+                padding: 20px;
+            }
+            h1 { font-size: 1.6em; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Politique de Confidentialité</h1>
+        
+        <div class="last-updated">
+            <strong>Dernière mise à jour :</strong> Février 2026
+        </div>
+        
+        <p>Cette Politique de Confidentialité décrit comment <strong>SmartNote AI - Voice to Notes</strong> ("nous", "notre" ou "nos") collecte, utilise et protège vos informations lorsque vous utilisez notre application mobile et nos services associés, disponibles sur l'Apple App Store et le Google Play Store.</p>
+        
+        <h2>1. Informations collectées</h2>
+        
+        <h3>1.1 Données Audio</h3>
+        <ul>
+            <li><strong>Enregistrements vocaux :</strong> Nous traitons les enregistrements audio que vous créez dans l'application à des fins de transcription.</li>
+            <li><strong>Fichiers importés :</strong> Nous traitons les fichiers audio et vidéo que vous importez pour la transcription.</li>
+            <li><strong>Contenu YouTube :</strong> Nous traitons l'audio des liens YouTube que vous fournissez pour la transcription.</li>
+        </ul>
+        
+        <h3>1.2 Données Utilisateur et Abonnement</h3>
+        <ul>
+            <li><strong>Analyses d'utilisation :</strong> Informations sur la façon dont vous utilisez l'application (nombre de transcriptions, durée des sessions).</li>
+            <li><strong>Informations sur l'appareil :</strong> Type d'appareil, système d'exploitation et version de l'application.</li>
+            <li><strong>Données d'abonnement :</strong> Informations relatives à votre abonnement Premium (7,99 $ par semaine ou 69,99 $ par an) gérées via <strong>RevenueCat</strong>.</li>
+        </ul>
+        
+        <h2>2. Utilisation des informations</h2>
+        <p>Nous utilisons vos données pour fournir le service de transcription, améliorer les fonctionnalités de l'application, gérer vos accès Premium et assurer le support technique.</p>
+        
+        <h2>3. Traitement et stockage des données</h2>
+        <div class="highlight">
+            <strong>Important :</strong> Vos fichiers audio originaux sont supprimés de nos serveurs immédiatement après le traitement de la transcription. Ils ne sont pas stockés de façon permanente.
+        </div>
+        
+        <h2>4. Services tiers et partenaires</h2>
+        
+        <h3>4.1 Paiements</h3>
+        <p>Les transactions sont gérées exclusivement par les plateformes de paiement des stores :</p>
+        <ul>
+            <li><strong>Apple App Store :</strong> <a href="https://www.apple.com/legal/privacy/" target="_blank">Politique de confidentialité Apple</a></li>
+            <li><strong>Google Play Store :</strong> <a href="https://policies.google.com/privacy" target="_blank">Politique de confidentialité Google</a></li>
+        </ul>
+
+        <h3>4.2 Attribution, Publicité et Analyses</h3>
+        <p>Nous collaborons avec des partenaires tiers pour analyser l'utilisation de l'application, mesurer l'efficacité de nos campagnes publicitaires et attribuer les installations. Ces partenaires peuvent collecter des identifiants publicitaires (IDFA sur iOS ou AAID sur Android).</p>
+        <ul>
+            <li><strong>AppsFlyer :</strong> Mesure d'attribution et analyse de l'origine des installations. (<a href="https://www.appsflyer.com/services-privacy-policy/" target="_blank">Privacy Policy</a>)</li>
+            <li><strong>Google Ads :</strong> Diffusion et mesure de performance des campagnes publicitaires Google. (<a href="https://policies.google.com/privacy" target="_blank">Privacy Policy</a>)</li>
+            <li><strong>Meta (Facebook) :</strong> Mesure des conversions et ciblage publicitaire. (<a href="https://www.facebook.com/privacy/policy/" target="_blank">Privacy Policy</a>)</li>
+            <li><strong>TikTok :</strong> Mesure de performance des campagnes sur la plateforme TikTok. (<a href="https://www.tiktok.com/legal/page/row/privacy-policy/en" target="_blank">Privacy Policy</a>)</li>
+        </ul>
+
+        <h3>4.3 Services Techniques</h3>
+        <ul>
+            <li><strong>RevenueCat :</strong> Gestion des abonnements et des reçus d'achat.</li>
+            <li><strong>AssemblyAI :</strong> Moteur de transcription par Intelligence Artificielle.</li>
+        </ul>
+
+        <h2>5. Vos Droits</h2>
+        <p>Conformément aux lois en vigueur (RGPD, CCPA), vous avez le droit d'accéder à vos données, de demander leur rectification ou leur suppression. Vous pouvez gérer vos consentements de suivi directement dans les réglages de votre appareil (App Tracking Transparency sur iOS).</p>
+        
+        <h2>6. Protection des enfants</h2>
+        <p>Notre application n'est pas destinée aux enfants de moins de 13 ans. Nous ne collectons pas sciemment d'informations personnelles auprès d'enfants.</p>
+        
+        <div class="contact-info">
+            <h2>Contact</h2>
+            <p>Pour toute question concernant cette politique ou vos données personnelles, contactez-nous :</p>
+            <ul>
+                <li><strong>Email :</strong> <a href="mailto:contact@appicsai.com">contact@appicsai.com</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
